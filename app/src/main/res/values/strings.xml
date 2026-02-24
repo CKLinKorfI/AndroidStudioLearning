@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">StudyingLayout</string>
+    <string name="close_button">close button</string>
+    <string name="correct_answer">correct answer</string>
 </resources>
