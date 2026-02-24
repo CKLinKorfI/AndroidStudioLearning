@@ -13,6 +13,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:background="@android:color/transparent"
+        android:contentDescription="@string/close_button"
         android:src="@drawable/ic_close"
         android:layout_marginStart="24dp"
         android:layout_marginTop="24dp"
@@ -31,6 +32,7 @@
         android:gravity="center"
         android:textSize="50sp"
         tools:text="Galaxy"
+        android:fontFamily="@font/nunito_bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageButton">
@@ -63,7 +65,8 @@
                 android:gravity="center"
                 android:textColor="#888992"
                 android:textSize="16sp"
-                tools:text="1">
+                tools:text="1"
+                android:fontFamily="@font/nunito_semibold">
             </TextView>
 
             <TextView
@@ -73,7 +76,8 @@
                 android:width="256dp"
                 android:textColor="#888992"
                 android:textSize="16sp"
-                tools:text="Сломать">
+                tools:text="Сломать"
+                android:fontFamily="@font/rubik_regular">
 
             </TextView>
         </LinearLayout>
@@ -95,7 +99,8 @@
                 android:gravity="center"
                 android:textColor="#888992"
                 android:textSize="16sp"
-                tools:text="2">
+                tools:text="2"
+                android:fontFamily="@font/nunito_semibold">
             </TextView>
 
             <TextView
@@ -105,7 +110,8 @@
                 android:width="256dp"
                 android:textColor="#888992"
                 android:textSize="16sp"
-                tools:text="Cон">
+                tools:text="Cон"
+                android:fontFamily="@font/rubik_regular">
 
             </TextView>
         </LinearLayout>
@@ -127,7 +133,8 @@
                 android:gravity="center"
                 android:textColor="#888992"
                 android:textSize="16sp"
-                tools:text="3">
+                tools:text="3"
+                android:fontFamily="@font/nunito_semibold">
             </TextView>
 
             <TextView
@@ -137,7 +144,8 @@
                 android:width="256dp"
                 android:textColor="#888992"
                 android:textSize="16sp"
-                tools:text="Галактика">
+                tools:text="Галактика"
+                android:fontFamily="@font/rubik_regular">
 
             </TextView>
         </LinearLayout>
@@ -159,7 +167,8 @@
                 android:gravity="center"
                 android:textColor="#888992"
                 android:textSize="16sp"
-                tools:text="4">
+                tools:text="4"
+                android:fontFamily="@font/nunito_semibold">
             </TextView>
 
             <TextView
@@ -169,7 +178,8 @@
                 android:width="256dp"
                 android:textColor="#888992"
                 android:textSize="16sp"
-                tools:text="Утюг">
+                tools:text="Утюг"
+                android:fontFamily="@font/rubik_regular">
 
             </TextView>
         </LinearLayout>
@@ -203,6 +213,7 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="36dp"
             android:layout_marginTop="18dp"
+            android:contentDescription="@string/correct_answer"
             android:src="@drawable/ic_correct"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent">
@@ -233,8 +244,8 @@
             tools:text="CONTINUE"
             android:textColor="#0EAD69"
             android:backgroundTint="#FFFFFF"
-            android:background="@drawable/shape_button_footer">
-
+            android:background="@drawable/shape_button_footer"
+            android:fontFamily="@font/nunito_bold">
         </android.widget.Button>
     </androidx.constraintlayout.widget.ConstraintLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
