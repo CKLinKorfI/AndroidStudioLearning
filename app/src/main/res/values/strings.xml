@@ -1,5 +1,7 @@
 <resources>
-    <string name="app_name">StudyingLayout</string>
+    <string name="app_name" translatable="false">StudyingLayout</string>
     <string name="close_button">close button</string>
-    <string name="correct_answer">correct answer</string>
+    <string name="correct_answer">Correct!</string>
+    <string name="continue_button">continue</string>
+    <string name="question_word" translatable="false">Galaxy</string>
 </resources>

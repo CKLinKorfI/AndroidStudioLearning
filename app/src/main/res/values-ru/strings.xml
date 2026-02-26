@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">StudyingLayout</string>
+    <string name="close_button">Закрыть</string>
+    <string name="correct_answer">Верный ответ</string>
+    <string name="continue_button">Продолжить</string>
+    <string name="question_word" translatable="false">Galaxy</string>
+</resources>

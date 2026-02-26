@@ -31,7 +31,7 @@
         android:height="68dp"
         android:gravity="center"
         android:textSize="50sp"
-        tools:text="Galaxy"
+        android:text="@string/question_word"
         android:fontFamily="@font/nunito_bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -65,7 +65,7 @@
                 android:gravity="center"
                 android:textColor="#888992"
                 android:textSize="16sp"
-                tools:text="1"
+                android:text="1"
                 android:fontFamily="@font/nunito_semibold">
             </TextView>
 
@@ -74,11 +74,8 @@
                 android:layout_height="wrap_content"
                 android:layout_marginStart="8dp"
                 android:width="256dp"
-                android:textColor="#888992"
-                android:textSize="16sp"
-                tools:text="Сломать"
-                android:fontFamily="@font/rubik_regular">
-
+                android:text="Сломать"
+                style="@style/TextViewVariantsStyle">
             </TextView>
         </LinearLayout>
         <!-- Вариант 2-->
@@ -99,7 +96,7 @@
                 android:gravity="center"
                 android:textColor="#888992"
                 android:textSize="16sp"
-                tools:text="2"
+                android:text="2"
                 android:fontFamily="@font/nunito_semibold">
             </TextView>
 
@@ -108,11 +105,8 @@
                 android:layout_height="wrap_content"
                 android:layout_marginStart="8dp"
                 android:width="256dp"
-                android:textColor="#888992"
-                android:textSize="16sp"
-                tools:text="Cон"
-                android:fontFamily="@font/rubik_regular">
-
+                android:text="Сон"
+                style="@style/TextViewVariantsStyle">
             </TextView>
         </LinearLayout>
         <!-- Вариант 3-->
@@ -133,7 +127,7 @@
                 android:gravity="center"
                 android:textColor="#888992"
                 android:textSize="16sp"
-                tools:text="3"
+                android:text="3"
                 android:fontFamily="@font/nunito_semibold">
             </TextView>
 
@@ -142,10 +136,8 @@
                 android:layout_height="wrap_content"
                 android:layout_marginStart="8dp"
                 android:width="256dp"
-                android:textColor="#888992"
-                android:textSize="16sp"
-                tools:text="Галактика"
-                android:fontFamily="@font/rubik_regular">
+                android:text="Галактика"
+                style="@style/TextViewVariantsStyle">
 
             </TextView>
         </LinearLayout>
@@ -167,7 +159,7 @@
                 android:gravity="center"
                 android:textColor="#888992"
                 android:textSize="16sp"
-                tools:text="4"
+                android:text="4"
                 android:fontFamily="@font/nunito_semibold">
             </TextView>
 
@@ -178,7 +170,7 @@
                 android:width="256dp"
                 android:textColor="#888992"
                 android:textSize="16sp"
-                tools:text="Утюг"
+                android:text="Утюг"
                 android:fontFamily="@font/rubik_regular">
 
             </TextView>
@@ -194,7 +186,7 @@
         app:layout_constraintStart_toStartOf="parent"
         android:width="311dp"
         android:height="58dp"
-        tools:text="SKIP"
+        android:text="SKIP"
         android:backgroundTint="#2574FF">
     </Button>
 
@@ -229,7 +221,7 @@
             app:layout_constraintBottom_toBottomOf="@+id/imageView"
             app:layout_constraintStart_toEndOf="@+id/imageView"
             app:layout_constraintTop_toTopOf="@+id/imageView"
-            tools:text="Correct!">
+            android:text="@string/correct_answer">
         </TextView>
 
         <android.widget.Button
@@ -241,7 +233,7 @@
             app:layout_constraintTop_toBottomOf="@+id/imageView"
             android:layout_marginTop="12dp"
             android:layout_marginBottom="24dp"
-            tools:text="CONTINUE"
+            android:text="@string/continue_button"
             android:textColor="#0EAD69"
             android:backgroundTint="#FFFFFF"
             android:background="@drawable/shape_button_footer"
