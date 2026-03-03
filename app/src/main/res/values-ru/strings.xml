@@ -4,4 +4,5 @@
     <string name="correct_answer">Верный ответ</string>
     <string name="continue_button">Продолжить</string>
     <string name="question_word" translatable="false">Galaxy</string>
+    <string name="wrong_text">Не верно!</string>
 </resources>
